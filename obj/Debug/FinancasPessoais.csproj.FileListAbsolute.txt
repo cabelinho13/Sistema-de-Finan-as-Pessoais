@@ -1,0 +1,10 @@
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\obj\Debug\FinancasPessoais.csproj.AssemblyReference.cache
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\obj\Debug\FinancasPessoais.Properties.Resources.resources
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\obj\Debug\FinancasPessoais.csproj.GenerateResource.cache
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\obj\Debug\FinancasPessoais.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\obj\Debug\FinancasPessoais.Form1.resources
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\bin\Debug\FinancasPessoais.exe.config
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\bin\Debug\FinancasPessoais.exe
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\bin\Debug\FinancasPessoais.pdb
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\obj\Debug\FinancasPessoais.exe
+C:\Users\Usuário\source\repos\FinancasPessoais\FinancasPessoais\obj\Debug\FinancasPessoais.pdb
