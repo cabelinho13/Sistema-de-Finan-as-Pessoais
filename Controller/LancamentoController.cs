@@ -1,46 +1,46 @@
-﻿using System;
+﻿using FinancasPessoais.Model;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FinancasPessoais.Model;
-
-
 
 namespace FinancasPessoais.Controller
 {
     public class LancamentoController
     {
-        private FinancasModel financasModel = new FinancasModel();
+        // Usando a instância estática para persistir os dados em memória enquanto a aplicação está aberta
+        private static FinancasModel financasModel = new FinancasModel();
+
         public void AdicionarLancamento(Lancamento lancamento)
         {
-            financasModel.AdicionarLancamento(lancamento);
+            financasModel.AdicionarLancamento(lancamento); // Adiciona o lançamento ao modelo
         }
+
         public List<Lancamento> ListarLancamentos()
         {
-            return financasModel.ListarLancamentos();
+            return financasModel.ListarLancamentos(); // Retorna todos os lançamentos
         }
+
         public bool RemoverLancamento(int id)
         {
-            return financasModel.RemoverLancamento(id);
+            return financasModel.RemoverLancamento(id); // Remove o lançamento com o id correspondente
         }
+
         public bool AtualizarLancamento(Lancamento atualizado)
         {
-            return financasModel.AtualizarLancamento(atualizado);
+            return financasModel.AtualizarLancamento(atualizado); // Atualiza os dados do lançamento no modelo
         }
+
         public List<Lancamento> FiltrarPorTipo(string tipo)
         {
-            return financasModel.FiltrarPorTipo(tipo);
-        }   
+            return financasModel.FiltrarPorTipo(tipo); // Filtra os lançamentos por tipo (Receita/Despesa)
+        }
 
         public decimal CalcularTotal(string tipo)
         {
-            return financasModel.CalcularTotal(tipo);
+            return financasModel.CalcularTotal(tipo); // Calcula o total de um tipo (Receita/Despesa)
         }
 
         public decimal CalcularSaldo()
         {
-            return financasModel.CalcularSaldo();
-        }   
+            return financasModel.CalcularSaldo(); // Calcula o saldo geral
+        }
     }
 }
